@@ -19,6 +19,6 @@ void main(){
   printf("\nO valor da média é: %f",media);
  //Comparando o programa.//
   if (media>=7){printf("\nA média do aluno foi %f e foi aprovado.",media);}
-  else {printf("\n A média do aluno foi %f portando pelas normas acadêmicas ele está reprovado.",media);}
+  else {printf("\n A média do aluno foi %f portando pelas normas acadêmicas ele está reprovado.",media);} // lembrando que a média é apenas um número, seu conhecimento não pode ser quantizado.
 
 }
