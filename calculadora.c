@@ -61,6 +61,9 @@ void main() {
     potencia3=pow(valor3,potencia);
     printf("\nO valor potência de cada um dos números digitados respectivamente é:%f , %f, %f",potencia1,potencia2,potencia3);
     break;
+    default:
+      printf("\nVocê tem de digitar um valor válido. Abra o programa novamente");
+      break;
   }
   
 }
